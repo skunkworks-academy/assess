@@ -1,20 +1,24 @@
-# IDR Learning Portal
+# Skunkworks Academy Assess
 
-A Docusaurus-powered Individual Development Roadmap (IDR) portal for the Skunkworks Academy cohort. It includes a shared getting-started guide, a practical resource library, and nine individual roadmap workspaces.
+The Docusaurus application for [assess.skunkworksacademy.com](https://assess.skunkworksacademy.com/). It provides a product-selection landing page for Skunkworks Academy assessment pathways and preserves the Individual Development Roadmap (IDR) guides, resources, and participant workspaces.
 
 ## Local development
 
-Install dependencies and start the site:
-
 ```powershell
-npm install
+Set-Location "C:\Users\Raydo\GitHub\idr"
+npm ci
 npm start
 ```
 
-Create a production build:
+Create and inspect a production build:
 
 ```powershell
 npm run build
+npm run serve
 ```
 
-The personal roadmaps are intentionally starter templates. Add approved assessment insights and mentor-agreed goals before presenting them as final individual plans.
+## Deployment
+
+Pushes to `main` build the Docusaurus application and deploy the `build` directory through GitHub Pages. In the repository settings, **Pages → Build and deployment → Source** must be set to **GitHub Actions**.
+
+The personal roadmaps are intentionally starter templates. Add only approved assessment insights and mentor-agreed goals; do not commit confidential respondent answers or feedback to this public repository.

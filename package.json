@@ -1,8 +1,8 @@
 {
-  "name": "idr-learning-portal",
+  "name": "skunkworks-academy-assess",
   "version": "1.0.0",
   "private": true,
-  "description": "Individual Development Roadmap portal for the Skunkworks Academy cohort.",
+  "description": "Assessment selection and Individual Development Roadmap portal for Skunkworks Academy.",
   "scripts": {
     "start": "docusaurus start",
     "build": "docusaurus build",

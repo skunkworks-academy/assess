@@ -2,8 +2,8 @@ import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
-  title: 'IDR Learning Portal',
-  tagline: 'Turn reflection into focused, visible progress.',
+  title: 'Skunkworks Academy Assessments',
+  tagline: 'Practical assessments, readiness reviews, and development roadmaps.',
   favicon: 'images/favicon-black.png',
 
   url: 'https://assess.skunkworksacademy.com',
@@ -91,8 +91,8 @@ const config: Config = {
       innerHTML: JSON.stringify({
         '@context': 'https://schema.org',
         '@type': 'WebSite',
-        name: 'Skunkworks Academy IDR Learning Portal',
-        alternateName: 'IDR Learning Portal',
+        name: 'Skunkworks Academy Assessments',
+        alternateName: 'Skunkworks Academy Assess',
         url: 'https://assess.skunkworksacademy.com/',
         publisher: {
           '@type': 'EducationalOrganization',
@@ -123,16 +123,17 @@ const config: Config = {
   themeConfig: {
     image: 'img/social-card.svg',
     navbar: {
-      title: 'Assess · IDR',
+      title: 'Assess',
       logo: {
         alt: 'Skunkworks Academy',
         src: 'images/favicon-black.png',
         srcDark: 'images/favicon-white.png',
       },
       items: [
-        {type: 'docSidebar', sidebarId: 'idrSidebar', position: 'left', label: 'Start here'},
-        {to: '/docs/individual-plans', label: 'My IDR', position: 'left'},
-        {to: '/docs/resource-library', label: 'Resource library', position: 'left'},
+        {to: '/', label: 'Assessments', position: 'left'},
+        {type: 'docSidebar', sidebarId: 'idrSidebar', position: 'left', label: 'IDR guide'},
+        {to: '/docs/individual-plans', label: 'Participant portal', position: 'left'},
+        {to: '/docs/resource-library', label: 'Resources', position: 'left'},
         {href: 'https://github.com/skunkworks-academy/assess', label: 'GitHub', position: 'right'},
       ],
     },
@@ -140,8 +141,9 @@ const config: Config = {
       style: 'light',
       links: [
         {
-          title: 'IDR',
+          title: 'Assess',
           items: [
+            {label: 'Assessment pathways', to: '/'},
             {label: 'Getting started', to: '/docs/intro'},
             {label: 'Resource library', to: '/docs/resource-library'},
           ],
@@ -154,7 +156,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Skunkworks Academy. Built for purposeful learning.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Skunkworks Academy. Assess with purpose. Develop with evidence.`,
     },
     prism: {
       theme: {plain: {color: '#172033', backgroundColor: '#f8fafc'}, styles: []},
