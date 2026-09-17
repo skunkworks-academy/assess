@@ -141,6 +141,9 @@
 .cardLink { align-items: center; color: #1756a9 !important; display: inline-flex; font-weight: 800; gap: .55rem; text-decoration: none !important; width: fit-content; }
 .cardLink span { transition: transform .18s ease; }
 .cardLink:hover span { transform: translateX(.25rem); }
+.catalogueAction { display: flex; justify-content: center; padding-top: 2rem; }
+.catalogueAction a { color: #1756a9 !important; font-weight: 800; text-decoration: none !important; }
+.catalogueAction a:hover { text-decoration: underline !important; text-underline-offset: .3rem; }
 
 .processSection { background: #f7f9fc; border-block: 1px solid #d8dee8; }
 .processSection h2 { margin-bottom: 2.75rem; max-width: 43rem; }

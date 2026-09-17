@@ -130,11 +130,23 @@ const config: Config = {
         srcDark: 'images/favicon-white.png',
       },
       items: [
-        {to: '/', label: 'Assessments', position: 'left'},
-        {type: 'docSidebar', sidebarId: 'idrSidebar', position: 'left', label: 'IDR guide'},
+        {
+          type: 'dropdown',
+          label: 'Assessments',
+          position: 'left',
+          items: [
+            {to: '/assessments', label: 'All assessment pathways'},
+            {to: '/assessments/individual-development-roadmap', label: 'Individual Development Roadmap'},
+            {to: '/assessments/skills-role-readiness', label: 'Skills & role readiness'},
+            {to: '/assessments/certification-readiness', label: 'Certification readiness'},
+            {to: '/assessments/team-capability-review', label: 'Team capability review'},
+          ],
+        },
+        {to: '/find-your-assessment', label: 'Find your assessment', position: 'left'},
+        {to: '/how-it-works', label: 'How it works', position: 'left'},
+        {to: '/resources', label: 'Resources', position: 'left'},
         {to: '/docs/individual-plans', label: 'Participant portal', position: 'left'},
-        {to: '/docs/resource-library', label: 'Resources', position: 'left'},
-        {href: 'https://github.com/skunkworks-academy/assess', label: 'GitHub', position: 'right'},
+        {to: '/contact', label: 'Start', position: 'right', className: 'navbar-cta'},
       ],
     },
     footer: {
@@ -143,16 +155,36 @@ const config: Config = {
         {
           title: 'Assess',
           items: [
-            {label: 'Assessment pathways', to: '/'},
-            {label: 'Getting started', to: '/docs/intro'},
-            {label: 'Resource library', to: '/docs/resource-library'},
+            {label: 'All assessment pathways', to: '/assessments'},
+            {label: 'Find your assessment', to: '/find-your-assessment'},
+            {label: 'How it works', to: '/how-it-works'},
           ],
         },
         {
-          title: 'Support',
+          title: 'Assessment pathways',
           items: [
-            {label: 'Skunkworks Academy', href: 'https://skunkworksacademy.com'},
-            {label: 'Repository', href: 'https://github.com/skunkworks-academy/assess'},
+            {label: 'Individual development', to: '/assessments/individual-development-roadmap'},
+            {label: 'Role readiness', to: '/assessments/skills-role-readiness'},
+            {label: 'Certification readiness', to: '/assessments/certification-readiness'},
+            {label: 'Team capability', to: '/assessments/team-capability-review'},
+          ],
+        },
+        {
+          title: 'Guidance',
+          items: [
+            {label: 'Resource hub', to: '/resources'},
+            {label: 'FAQ', to: '/faq'},
+            {label: 'Privacy guidance', to: '/privacy'},
+            {label: 'About Assess', to: '/about'},
+          ],
+        },
+        {
+          title: 'Participants',
+          items: [
+            {label: 'IDR guide', to: '/docs/intro'},
+            {label: 'Individual roadmaps', to: '/docs/individual-plans'},
+            {label: 'Practical toolkit', to: '/docs/resource-library'},
+            {label: 'Contact the academy', href: 'https://www.skunkworksacademy.com/contact.html'},
           ],
         },
       ],

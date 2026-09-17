@@ -1,6 +1,17 @@
 # Skunkworks Academy Assess
 
-The Docusaurus application for [assess.skunkworksacademy.com](https://assess.skunkworksacademy.com/). It provides a product-selection landing page for Skunkworks Academy assessment pathways and preserves the Individual Development Roadmap (IDR) guides, resources, and participant workspaces.
+The Docusaurus application for [assess.skunkworksacademy.com](https://assess.skunkworksacademy.com/). It provides a complete Skunkworks Academy assessment catalogue and preserves the Individual Development Roadmap (IDR) guides, resources, and participant workspaces.
+
+## Site areas
+
+- Assessment catalogue and guided pathway selector
+- Individual Development Roadmap
+- Skills and role readiness
+- Certification readiness
+- Team capability review
+- Assessment methodology and evidence guidance
+- Learning resource hub, FAQ, privacy guidance, and start routes
+- IDR participant guide, practical toolkit, and individual workspaces
 
 ## Local development
 

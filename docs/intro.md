@@ -9,6 +9,8 @@ An Individual Development Roadmap (IDR) is a short, practical agreement with you
 
 This portal gives each cohort member a personal workspace, a shared learning toolkit, and a simple review cadence. It is designed to support real work—not create another form to complete.
 
+[Start the approved IDR assessment](https://forms.cloud.microsoft/r/3pDGVLp645) or continue below to understand the roadmap before completing it.
+
 :::tip Begin with what is true
 Your roadmap is a starting point, not a verdict. Replace any suggested focus with the goals, feedback, and assessment insights that are most relevant to you.
 :::

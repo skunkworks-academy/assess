@@ -50,6 +50,8 @@ body { min-height: 100vh; }
 
 .navbar__title { font-family: var(--ifm-heading-font-family); font-weight: 800; letter-spacing: -.03em; }
 .navbar__logo img { border-radius: .45rem; }
+.navbar-cta { background: var(--sw-skunk-blue); border-radius: .55rem; color: #fff !important; margin-left: .4rem; padding-inline: 1rem !important; }
+.navbar-cta:hover { background: var(--sw-skunk-blue-hover); color: #fff !important; }
 .markdown h1 { letter-spacing: -.045em; }
 .theme-doc-markdown h2 { margin-top: 2.75rem; }
 .table-of-contents__link--active { font-weight: 700; }
