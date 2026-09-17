@@ -1,0 +1,17 @@
+{
+  "name": "Skunkworks Academy IDR Learning Portal",
+  "short_name": "IDR Portal",
+  "description": "Individual Development Roadmaps for the Skunkworks Academy cohort.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FFFFFF",
+  "theme_color": "#03033A",
+  "icons": [
+    {
+      "src": "/images/favicon-black.png",
+      "sizes": "1563x1563",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
