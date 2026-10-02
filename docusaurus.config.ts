@@ -4,7 +4,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 const config: Config = {
   title: 'Skunkworks Academy Assessments',
   tagline: 'Practical assessments, readiness reviews, and development roadmaps.',
-  favicon: 'images/favicon-black.png',
+  favicon: 'images/favicon-search.png',
 
   url: 'https://assess.skunkworksacademy.com',
   baseUrl: '/',
@@ -39,15 +39,15 @@ const config: Config = {
     },
     {
       tagName: 'link',
-      attributes: {rel: 'shortcut icon', type: 'image/png', href: '/images/favicon-black.png'},
+      attributes: {rel: 'shortcut icon', type: 'image/png', href: 'https://www.skunkworksacademy.com/images/favicon-search.png'},
     },
     {
       tagName: 'link',
-      attributes: {rel: 'icon', type: 'image/png', sizes: '32x32', href: '/images/favicon-black.png', media: '(prefers-color-scheme: light)'},
+      attributes: {rel: 'icon', type: 'image/png', sizes: '96x96', href: 'https://www.skunkworksacademy.com/images/favicon-search.png', media: '(prefers-color-scheme: light)'},
     },
     {
       tagName: 'link',
-      attributes: {rel: 'icon', type: 'image/png', sizes: '32x32', href: '/images/favicon-white.png', media: '(prefers-color-scheme: dark)'},
+      attributes: {rel: 'icon', type: 'image/png', sizes: '96x96', href: 'https://www.skunkworksacademy.com/images/favicon-search-dark.png', media: '(prefers-color-scheme: dark)'},
     },
     {
       tagName: 'link',
